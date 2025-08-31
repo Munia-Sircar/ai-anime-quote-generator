@@ -17,6 +17,10 @@ function generateQuote(event) {
     "You are an anime fan. Provide a quote from the anime that is requested in basic HTML. Do not mention 'basic HTML', only show the quote and the person who said it.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quoteBox = document.querySelector("#quote");
+  quoteBox.classList.add("show-quote");
+  quoteBox.innerHTML = "Please wait a moment...⏳";
+
   axios.get(apiUrl).then(displayQuote);
 }
 
