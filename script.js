@@ -14,7 +14,7 @@ function generateQuote(event) {
   let apiKey = "28d0bff0ffaa52b09e33da6etode543b";
   let prompt = `Generate a quote from the anime called ${inputAnime.value}.`;
   let context =
-    "You are an anime fan. Provide a quote from the anime that is requested in basic HTML. Do not mention 'basic HTML', only show the quote and the person who said it.";
+    "You are an anime fan. Provide a quote from the anime that is requested in basic HTML. Do not mention 'basic HTML' or 'html', only show the quote and the person who said it.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let quoteBox = document.querySelector("#quote");
