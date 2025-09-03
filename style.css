@@ -1,9 +1,10 @@
 body {
-  background-color: rgb(250, 237, 232);
+  background-color: #fbe5f5;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
+  color: rgb(29, 54, 132);
   text-align: center;
   font-size: 25px;
 }
@@ -17,12 +18,21 @@ form {
 }
 
 footer {
+  color: rgb(29, 54, 132);
   font-size: 13px;
   text-align: center;
 }
 
 a {
-  color: indianred;
+  color: #bb4b7b;
+}
+
+img {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .container {
@@ -34,7 +44,7 @@ a {
 .anime-input {
   padding: 10px;
   width: 75%;
-  border: 1px solid rgb(250, 222, 212);
+  border: 1px solid rgb(29, 54, 132);
   border-radius: 10px;
   font-size: 16px;
 }
@@ -43,7 +53,7 @@ a {
   padding: 10px;
   width: 20%;
   color: white;
-  background-color: salmon;
+  background-color: rgb(29, 54, 132);
   border: none;
   border-radius: 10px;
   font-size: 16px;
@@ -53,15 +63,16 @@ a {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  border-left: 3px solid salmon;
-  border-right: 3px solid salmon;
+  border-left: 3px solid rgb(29, 54, 132);
+  border-right: 3px solid rgb(29, 54, 132);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 20px;
   line-height: 1.5;
+  color: #bb4b7b;
 }
 
 .example {
   margin-top: 8px;
   font-size: 11px;
-  color: indianred;
+  color: rgb(29, 54, 132);
 }
